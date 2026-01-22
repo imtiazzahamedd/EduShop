@@ -51,4 +51,13 @@
     .fl-list p{
         font-size: 12px;
     }
+    /* login */
+    .login-container{
+    width: 90%;
+    margin: auto;
+    height: 77vh;
+}
+.create{
+    display: block;
+}
 }

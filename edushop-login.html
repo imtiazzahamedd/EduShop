@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EduShop-Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center justify-content-start gap-2">
+                    <a class="navbar-brand-logo" href="#"><i class="bi bi-mortarboard"></i></a>
+                    <a class="navbar-brand fw-bold" href="#">EduShop</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end gap-1 gap-md-3 align-items-md-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="edushop-login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <section class="d-flex align-items-center gap-1 cart-ti">
+                                <div class="icon"><i class="bi bi-cart3"></i></div>
+                                <div class="text">Cart</div>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="mx-auto shadow login-container d-flex flex-column gap-4">
+            <div class="login-img">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOGFUVEKuF7hkI6dwIMSmh-IHQnRVEWo_MkzZzGaXUF_H-c9N814Q6FQcBWLePCrKANiq09CvX06_5ouFxyxYg49xfha4RkpvMTrwNyB2YD04XOBdY9PN5z7uw9_JB29e-U70778N9dGbNE3UtupHgWaQ4_e4jospyxQdrttis5ByLmag8M40wefzs3eolyl7YCFKwxVpQFDy5bgKtLlPmwUr-UJg6bHbvE-OeQfjJSSOC3gKUTcO9rl-KorqgsCMmKnRBjKaBZw"
+                    alt="" class="w-100 object-fit-cover">
+            </div>
+            <section class="login-text d-flex flex-column gap-4">
+                <div class="login-heading">
+                <h1>Welcome Back</h1>
+                <p>Student Portal Login</p>
+            </div>
+            <div class="login-form">
+                <form class="d-flex flex-column gap-2">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label fw-bold">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gamil.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Type your password" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember this device</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary fw-semibold py-3 fs-5">Login to Account</button>
+                </form>
+            </div>
+            <div class="line"></div>
+            <div class="login-last text-center">
+                <p>Don't have an account? <span class="create">Create an account</span></p>
+            </div>
+            </section>
+        </section>
+    </main>
+    <footer class="mt-5">
+        <section class="container mx-auto py-3 text-center d-flex flex-column align-items-center gap-3">
+            <div class="d-flex align-items-center justify-content-center gap-2">
+                <a class="navbar-brand-logo" href="#"><i class="bi bi-mortarboard"></i></a>
+                <a class="navbar-brand fw-bold" href="#">EduShop</a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-4 fl-list">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p>Help Center</p>
+            </div>
+            <div class="footer-last">
+                <p class="fl-p">© 2023 EduShop. Designed for Web Design Students. </p>
+                <p> by <span class="fw-bold">Imtiaz Ahamed</span></p>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
